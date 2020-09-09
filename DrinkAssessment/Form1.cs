@@ -13,10 +13,7 @@ namespace DrinkAssessment
     public partial class Form1 : Form
     {
 
-        //Drink regularDrink = new Drink("Tea", false);
-        //Beer bud = new Beer("Budwiser", true, 5.6);
-        //Juice ornage = new Juice("Orange juice", false, "Oranges");
-        //Soda pepsi = new Soda("Pepsi", true);
+
         public Form1()
         {
             InitializeComponent();
