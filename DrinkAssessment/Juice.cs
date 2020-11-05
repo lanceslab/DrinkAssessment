@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace DrinkAssessment
 {
+    /// <summary>
+    /// The Juice class inherited from the Drink class that has a method
+    /// to display the drink description.
+    /// </summary>
+    /// <remarks>
+    /// <para>This class can determine and display weather or not the
+    /// drink is carbinated.</para>
+    /// </remarks>
     class Juice : Drink
     {
 
@@ -15,14 +23,19 @@ namespace DrinkAssessment
             madeFrom = m;
         }
 
-
+        /// <value>Gets the value of MadeFrom.</value>
         public string MadeFrom
         {
             get { return madeFrom; }
             set { madeFrom = value; }
         }
 
-
+        /// <summary>
+        /// Determine if the Juice drink is carbonated.
+        /// </summary>
+        /// <returns>
+        /// String explaining whether the Juice drink is carbonated or not.
+        /// </returns>
         public override string DrinkDesc()
         {
             if (this.Carbinated == true)
